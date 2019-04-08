@@ -10,7 +10,7 @@ DATE=`date +"%Y-%m-%d"`
 SourceDir=/mnt
 BakDir=/backup
 RetainDay=7
-ProjectLst=/backup/project.list
+ProjectLst=/backup/data.list
 echo "backup start at $(date +"%Y-%m-%d %H:%M:%S")" > $LogFile
 echo "--------------------------------------------------" >> $LogFile
 cd $BakDir
